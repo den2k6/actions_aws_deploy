@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e6f3ff;
+    background-color: #d6f3ff;
     color: #001f3f; /* 濃い青 */
     line-height: 1.6;
     padding: 20px;
@@ -19,7 +19,7 @@ h3 {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background-color: #f0f8ff; /* アリスブルー */
+    background-color: #e8f8ff; /* アリスブルー */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);

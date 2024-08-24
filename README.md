@@ -47,5 +47,5 @@ GitHub Actions で main ブランチへの push をトリガーに AWS S3 と Gi
 
 ## 備考
 
-アクセスキー更新2
-CloudFront のキャッシュを削除を追加
+1. アクセスキー更新2
+1. workflows に CloudFront のキャッシュ削除を追加
