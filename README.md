@@ -1,6 +1,6 @@
 # actions_aws_deploy
 
-GitHub Actions で main ブランチへの push をトリガーに Pages と AWS S3 へデプロイします。
+GitHub Actions で main ブランチへの push をトリガーに AWS S3 と GitHub Pages へデプロイします。
 
 ## デプロイ先
 
