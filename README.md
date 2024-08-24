@@ -27,13 +27,22 @@ GitHub Actions で main ブランチへの push をトリガーに AWS S3 と Gi
 
 ## セットアップ手順
 
-1. このリポジトリをクローンする
-2. 必要な環境変数をGitHubシークレットに設定する
+1. AWSコンソールでIAMユーザーを作成し、アクセスキーを生成する
+2. AWS S3でバケットを作成する
+3. AWS CloudFrontでディストリビューションを作成する
+   - オリジンアクセスコントロール（OAC）を設定し、S3バケットにバケットポリシーを適用する
+4. GitHubで新しいリポジトリを作成する
+5. ローカル環境にリポジトリをクローンする
+6. 以下の環境変数をGitHubシークレットとして設定する
    - AWS_ACCESS_KEY_ID
    - AWS_SECRET_ACCESS_KEY
    - AWS_REGION
    - S3_BUCKET_NAME
-3. mainブランチにプッシュしてデプロイをトリガーする
+   - CLOUDFRONT_DISTRIBUTION_ID
+7. リポジトリの設定でGitHub Pagesを有効にする
+8. `.github/workflows`フォルダを作成し、デプロイ用のワークフローファイル（例：`deploy.yml`）を設定する
+9. `docs`フォルダを作成し、Webサイトのコンテンツ（HTML、CSS、JavaScript等）を配置する
+10. 変更をコミットし、mainブランチにプッシュしてデプロイをトリガーする
 
 ## ファイル構造
 
