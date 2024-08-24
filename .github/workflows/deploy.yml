@@ -22,4 +22,4 @@ jobs:
 
         - name: Sync S3 bucket
           run: |
-            aws s3 sync ./path_to_your_site/ s3://your-bucket-name --delete
+            aws s3 sync ./docs/ s3://actionsdeploy --delete
