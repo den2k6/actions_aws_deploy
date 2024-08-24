@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f3ff;
+    color: #FF8C9A; /* より濃いパステルピンク */
+    line-height: 1.6;
+    padding: 20px;
+}
+h1 {
+    color: #7FFF9B; /* より濃いパステルグリーン */
+    border-bottom: 2px solid #7FFF9B;
+    padding-bottom: 10px;
+}
+h2 {
+    color: #7FBFFF; /* より濃いパステルブルー */
+}
+h3 {
+    color: #FFFF7F; /* より濃いパステルイエロー */
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
