@@ -1,25 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #e6f3ff;
-    color: #FF8C9A; /* より濃いパステルピンク */
+    color: #001f3f; /* 濃い青 */
     line-height: 1.6;
     padding: 20px;
 }
 h1 {
-    color: #7FFF9B; /* より濃いパステルグリーン */
-    border-bottom: 2px solid #7FFF9B;
+    color: #0074D9; /* 明るい青 */
+    border-bottom: 2px solid #0074D9;
     padding-bottom: 10px;
 }
 h2 {
-    color: #7FBFFF; /* より濃いパステルブルー */
+    color: #39CCCC; /* ライトブルー */
 }
 h3 {
-    color: #FFFF7F; /* より濃いパステルイエロー */
+    color: #7FDBFF; /* 淡い青 */
 }
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #f0f8ff; /* アリスブルー */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
