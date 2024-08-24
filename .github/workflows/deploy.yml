@@ -23,3 +23,12 @@ jobs:
         - name: Sync S3 bucket
           run: |
             aws s3 sync ./docs/ s3://actionsdeploy --delete
+
+        - name: Invalidate CloudFront Cache
+          run: |
+            aws cloudfront create-invalidation \
+              --distribution-id EI7FEGTC9UVLN \
+              --paths "/*"
+          env:
+            AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

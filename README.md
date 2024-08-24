@@ -48,3 +48,4 @@ GitHub Actions で main ブランチへの push をトリガーに AWS S3 と Gi
 ## 備考
 
 アクセスキー更新2
+CloudFront のキャッシュを削除を追加
